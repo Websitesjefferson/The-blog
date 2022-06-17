@@ -1,0 +1,169 @@
+body{
+    margin: 0%;
+}
+img{
+    
+    max-width: 100%;
+    width: 500px;
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background:  #290742;
+    color: white;
+    align-items: center;
+    padding: 50px 10px;
+    justify-content: space-around;
+}
+.tab{
+    border-left: 2px solid rgb(98, 160, 4);
+}
+  
+
+
+.but{
+    text-align: center;
+    background: #290742;
+    color:  #9e6dc2;
+    border: none;
+    font-size: 25px;
+    transition: 300ms;
+    padding: .5rem;
+    cursor: pointer;
+  
+}
+.but:hover{
+    
+   filter: brightness(1.3);
+  
+   color: white;
+}
+.topo{
+    
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+
+.buttx{
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    width: 200px;
+    background: #210535;
+    border: none;
+    color: white;
+    
+   
+    
+   
+}
+.svg1{
+    
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 2px;
+    background: #9e6dc2;
+    border: none;
+    transition: 300ms;
+    cursor: pointer;
+}
+.svg1:hover{
+    
+    filter: brightness(1.3);
+}
+
+
+
+.sec{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #290742;
+   color: white;
+   justify-content: space-around;
+   padding: 40px 10px;
+}
+.meio{
+    width: 420px;
+    
+    
+}
+h1{
+    color: #9e6dc2;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.pt{
+    color: #c49de1;
+    font-size: 20px;
+}
+#texto{
+   
+  display: flex;
+  align-items: center;
+}
+#texto:hover{
+    transform: scale(1.0);
+}
+.foo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:40px 10px;
+}
+.meio2, .meio3{
+    width: 450px;
+    
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:40px 10px;
+}
+.meio4{
+    width: 300px;
+    
+}
+#foot1{
+    background-color: #210535;
+    color: #6dc2a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px 10px;
+
+}
+.meio5{
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 20px;
+    color: #6dc2a6;
+    background-color: #210535;
+    align-items: center;
+    
+}
+.meio5:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 920px) {
+
+    .but{
+        font-size: 16px;
+        padding: 5px;
+    }
+
+}
